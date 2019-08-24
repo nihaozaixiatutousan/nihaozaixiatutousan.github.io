@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>333</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://nihaozaixiatutousan.github.io/"/>
+  <updated>2019-08-24T06:04:28.746Z</updated>
+  <id>http://nihaozaixiatutousan.github.io/</id>
+  
+  <author>
+    <name>333</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux common command</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/08/24/Linux-common-command/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/08/24/Linux-common-command/</id>
+    <published>2019-08-24T03:56:52.000Z</published>
+    <updated>2019-08-24T06:04:28.746Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p>cd </p><p>rm </p><p>cp </p><p>mv</p><p>mkdir </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h1&gt;&lt;p&gt;cd &lt;/p&gt;
+&lt;p&gt;rm &lt;/p&gt;
+&lt;p&gt;cp &lt;/p&gt;
+&lt;p&gt;mv&lt;/p&gt;
+&lt;p&gt;mkdir &lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="http://nihaozaixiatutousan.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="http://nihaozaixiatutousan.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/08/24/Git/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/08/24/Git/</id>
+    <published>2019-08-24T02:15:58.000Z</published>
+    <updated>2019-08-24T06:06:26.872Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git"><a href="#git" class="headerlink" title="git"></a>git</h1><hr><h2 id="basic-command"><a href="#basic-command" class="headerlink" title="basic command"></a>basic command</h2><p>git add </p><p>git  commit</p><p>git status</p><h2 id="简化指令"><a href="#简化指令" class="headerlink" title="简化指令"></a>简化指令</h2><p>git config –global alias.st  status</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git&quot;&gt;&lt;a href=&quot;#git&quot; class=&quot;headerlink&quot; title=&quot;git&quot;&gt;&lt;/a&gt;git&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;basic-command&quot;&gt;&lt;a href=&quot;#basic-command&quot; class=&quot;headerlin
+      
+    
+    </summary>
+    
+      <category term="git" scheme="http://nihaozaixiatutousan.github.io/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://nihaozaixiatutousan.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/08/23/hello-world/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/08/23/hello-world/</id>
+    <published>2019-08-23T09:45:59.543Z</published>
+    <updated>2019-08-23T09:45:59.543Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
