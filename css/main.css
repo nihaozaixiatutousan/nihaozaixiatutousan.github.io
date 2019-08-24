@@ -1833,7 +1833,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffe7;
+  background: #ff8369;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2645,22 +2645,4 @@ embed {
   .menu .menu-item .fa {
     width: 100%;
   }
-}
-.sidebar {
-  left: auto;
-  right: 0;
-}
-.sidebar-toggle,
-.back-to-top {
-  left: auto;
-  right: 30px;
-}
-@media (max-width: 991px) {
-  .sidebar-toggle,
-  .back-to-top {
-    right: 20px;
-  }
-}
-.book-mark-link {
-  left: 30px;
 }
