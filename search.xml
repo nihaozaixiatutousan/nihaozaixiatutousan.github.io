@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo]]></title>
     <url>%2F2019%2F08%2F24%2Fhexo%2F</url>
-    <content type="text"><![CDATA[hexo首先谈论下心得，对于我来说hexo绝对是个人搭建博客的首选。使用人数众多，方便搜索未知的黑洞。官网比较友好。搭建 hexo 需要的工具安装环境 node.js + npm检查是否安装node 与 npmnpm 可以更换国内的镜像源，这样对于我们国内的用户下载的时候会友好点1npm config set registry https://registry.npm.taobao.org/ 安装hexo-cli 1npm install -g hexo-cli hexo 的关键命令创建hexo个人blog命令 1hexo init blog(里的blog特指为你所创建的博客命名) 安装包依赖 12cd blognpm install 创建博客静态文件 1hexo generate || hexo g(||后面为简写命令) 本地查看博客 1hexo server 清理静态文件 1hexo clean 更多命令请查看官网hexo]]></content>
+    <content type="text"><![CDATA[hexo首先谈论下心得，对于我来说hexo绝对是个人搭建博客的首选。使用人数众多，方便搜索未知的黑洞。官网比较友好。搭建 hexo 需要的工具安装环境 node.js + npm检查是否安装node 与 npmnpm 可以更换国内的镜像源，这样对于我们国内的用户下载的时候会友好点1npm config set registry https://registry.npm.taobao.org/安装hexo-cli1npm install -g hexo-clihexo 的关键命令创建hexo个人blog命令1hexo init blog(里的blog特指为你所创建的博客命名)安装包依赖12cd blognpm install创建博客静态文件1hexo generate || hexo g(||后面为简写命令)本地查看博客1hexo server清理静态文件1hexo clean更多命令请查看官网hexo]]></content>
       <categories>
         <category>hexo</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[Linux common command]]></title>
     <url>%2F2019%2F08%2F24%2FLinux-common-command%2F</url>
-    <content type="text"><![CDATA[Linuxcd rm cp mv mkdir]]></content>
+    <content type="text"><![CDATA[Linuxcdrmcpmvmkdir]]></content>
       <categories>
         <category>linux</category>
       </categories>
@@ -25,7 +25,7 @@
   <entry>
     <title><![CDATA[Git]]></title>
     <url>%2F2019%2F08%2F24%2FGit%2F</url>
-    <content type="text"><![CDATA[git basic commandgit add git commit git status 简化指令git config –global alias.st status]]></content>
+    <content type="text"><![CDATA[gitbasic commandgit addgit commitgit status简化指令git config –global alias.st status]]></content>
       <categories>
         <category>git</category>
       </categories>
@@ -36,6 +36,6 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F08%2F23%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.Quick StartCreate a new post1$ hexo new "My New Post"More info: WritingRun server1$ hexo serverMore info: ServerGenerate static files1$ hexo generateMore info: GeneratingDeploy to remote sites1$ hexo deployMore info: Deployment]]></content>
   </entry>
 </search>
