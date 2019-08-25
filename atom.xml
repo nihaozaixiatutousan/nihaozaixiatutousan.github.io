@@ -67,21 +67,13 @@
     <link href="http://nihaozaixiatutousan.github.io/2019/08/24/Linux-common-command/"/>
     <id>http://nihaozaixiatutousan.github.io/2019/08/24/Linux-common-command/</id>
     <published>2019-08-24T03:56:52.000Z</published>
-    <updated>2019-08-24T06:04:28.746Z</updated>
+    <updated>2019-08-25T12:41:49.567Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p>cd </p><p>rm </p><p>cp </p><p>mv</p><p>mkdir </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><p>cd </p><p>rm </p><p>cp </p><p>mv</p><p>mkdir </p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>ls 显示当前文件夹文件列表</p><p>ls -l 以列表的方式显示当前文件夹列表</p><p>ls -a  可以显示当前文件夹内的隐藏文件</p><p>ls *.c 使用通配符查看当前文件夹内以.c后缀结尾的文件</p><p>ls ?.c 使用？号匹配单个字符</p><p>touch file.c 创建file.c文件</p><a id="more"></a><p>\ 反斜杠为转意字符</p><p>&gt; 输出重定向符号 ls &gt; test.txt 如果目录不存在test.txt会新建文件</p><p>|  管道命令 ls -la | grep *.c</p><p>grep 文本搜索命令</p><p>find 查找文件</p><p>pwd 显示当前所在文件夹绝对路径</p><p>clear  清除屏幕</p><p>cd 切换工作目录</p><p>cd ..回到上一级目录</p><p>cd -  回到上一次进入的目录</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h1&gt;&lt;p&gt;cd &lt;/p&gt;
-&lt;p&gt;rm &lt;/p&gt;
-&lt;p&gt;cp &lt;/p&gt;
-&lt;p&gt;mv&lt;/p&gt;
-&lt;p&gt;mkdir &lt;/p&gt;
-
-      
+      &lt;h1 id=&quot;Linux&quot;&gt;&lt;a href=&quot;#Linux&quot; class=&quot;headerlink&quot; title=&quot;Linux&quot;&gt;&lt;/a&gt;Linux&lt;/h1&gt;&lt;p&gt;cd &lt;/p&gt;&lt;p&gt;rm &lt;/p&gt;&lt;p&gt;cp &lt;/p&gt;&lt;p&gt;mv&lt;/p&gt;&lt;p&gt;mkdir &lt;/p&gt;&lt;h2 id=&quot;常用命令&quot;&gt;&lt;a href=&quot;#常用命令&quot; class=&quot;headerlink&quot; title=&quot;常用命令&quot;&gt;&lt;/a&gt;常用命令&lt;/h2&gt;&lt;p&gt;ls 显示当前文件夹文件列表&lt;/p&gt;&lt;p&gt;ls -l 以列表的方式显示当前文件夹列表&lt;/p&gt;&lt;p&gt;ls -a  可以显示当前文件夹内的隐藏文件&lt;/p&gt;&lt;p&gt;ls *.c 使用通配符查看当前文件夹内以.c后缀结尾的文件&lt;/p&gt;&lt;p&gt;ls ?.c 使用？号匹配单个字符&lt;/p&gt;&lt;p&gt;touch file.c 创建file.c文件&lt;/p&gt;
     
     </summary>
     

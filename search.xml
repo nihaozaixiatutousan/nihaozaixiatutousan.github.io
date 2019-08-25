@@ -26,7 +26,7 @@
   <entry>
     <title><![CDATA[Linux common command]]></title>
     <url>%2F2019%2F08%2F24%2FLinux-common-command%2F</url>
-    <content type="text"><![CDATA[Linuxcd rm cp mv mkdir]]></content>
+    <content type="text"><![CDATA[Linuxcd rm cp mvmkdir 常用命令ls 显示当前文件夹文件列表ls -l 以列表的方式显示当前文件夹列表ls -a 可以显示当前文件夹内的隐藏文件ls *.c 使用通配符查看当前文件夹内以.c后缀结尾的文件ls ?.c 使用？号匹配单个字符touch file.c 创建file.c文件 \ 反斜杠为转意字符 &gt; 输出重定向符号 ls &gt; test.txt 如果目录不存在test.txt会新建文件 | 管道命令 ls -la | grep *.c grep 文本搜索命令 find 查找文件 pwd 显示当前所在文件夹绝对路径 clear 清除屏幕 cd 切换工作目录 cd ..回到上一级目录 cd - 回到上一次进入的目录]]></content>
       <categories>
         <category>linux</category>
       </categories>
