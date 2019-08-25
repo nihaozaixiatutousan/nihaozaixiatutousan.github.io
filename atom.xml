@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nihaozaixiatutousan.github.io/"/>
-  <updated>2019-08-24T13:45:14.919Z</updated>
+  <updated>2019-08-25T09:37:50.143Z</updated>
   <id>http://nihaozaixiatutousan.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+next themes</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/08/25/hexo-next-themes/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/08/25/hexo-next-themes/</id>
+    <published>2019-08-25T09:02:06.000Z</published>
+    <updated>2019-08-25T09:37:50.143Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="next主题"><a href="#next主题" class="headerlink" title="next主题"></a>next主题</h1><h2 id="hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易"><a href="#hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易" class="headerlink" title="hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易"></a>hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易</h2><h2 id="next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。"><a href="#next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。" class="headerlink" title="next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。"></a>next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。</h2><h2 id="首先安装主题"><a href="#首先安装主题" class="headerlink" title="首先安装主题"></a>首先安装主题</h2><p>安装</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd hexo(特指你的blog文件夹）</span><br><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next (注:这样clone下来的是最新版的如果需要其他版本请到github下theme-next下查看详情）</span><br></pre></td></tr></table></figure><a id="more"></a><p>hexo/_config.yml</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure><p>next/_config.yml</p><p>此文件为next主题配置文件，可以查询官方查看主要配置详情<a href="https://mist.theme-next.org/docs/" target="_blank" rel="noopener">theme-next</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;next主题&quot;&gt;&lt;a href=&quot;#next主题&quot; class=&quot;headerlink&quot; title=&quot;next主题&quot;&gt;&lt;/a&gt;next主题&lt;/h1&gt;&lt;h2 id=&quot;hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易&quot;&gt;&lt;a href=&quot;#hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易&quot; class=&quot;headerlink&quot; title=&quot;hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易&quot;&gt;&lt;/a&gt;hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易&lt;/h2&gt;&lt;h2 id=&quot;next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。&quot;&gt;&lt;a href=&quot;#next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。&quot; class=&quot;headerlink&quot; title=&quot;next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。&quot;&gt;&lt;/a&gt;next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。&lt;/h2&gt;&lt;h2 id=&quot;首先安装主题&quot;&gt;&lt;a href=&quot;#首先安装主题&quot; class=&quot;headerlink&quot; title=&quot;首先安装主题&quot;&gt;&lt;/a&gt;首先安装主题&lt;/h2&gt;&lt;p&gt;安装&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cd hexo(特指你的blog文件夹）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/theme-next/hexo-theme-next themes/next (注:这样clone下来的是最新版的如果需要其他版本请到github下theme-next下查看详情）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="next" scheme="http://nihaozaixiatutousan.github.io/categories/next/"/>
+    
+    
+      <category term="hexo" scheme="http://nihaozaixiatutousan.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="http://nihaozaixiatutousan.github.io/tags/next/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo</title>
