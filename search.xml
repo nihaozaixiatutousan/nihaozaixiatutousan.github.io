@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[《我的野蛮女友》--n刷]]></title>
+    <url>%2F2019%2F08%2F26%2F%E3%80%8A%E6%88%91%E7%9A%84%E9%87%8E%E8%9B%AE%E5%A5%B3%E5%8F%8B%E3%80%8B-n%E5%88%B7%2F</url>
+    <content type="text"><![CDATA[第一次看这部影片感官：真的很爽：而且也很搞笑。第二次认真看的时候有些情节，可能是由于本人年龄大了，脑洞有所增长的缘由，我对这部影片有了自己的一些感悟！ 未完待续……（等下次刷的时候想起来再说吧，未知像一颗成熟的精致的草莓，永远那么的诱人）]]></content>
+      <categories>
+        <category>film</category>
+      </categories>
+      <tags>
+        <tag>film</tag>
+        <tag>favorite</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo+next themes]]></title>
     <url>%2F2019%2F08%2F25%2Fhexo-next-themes%2F</url>
     <content type="text"><![CDATA[next主题hexo下的主题驳杂繁多，要想找到一个心仪的主题很不容易next主题呢，主题对用户比较友好，集成性高，几乎你能想到的功能的大部分都能满足。首先安装主题安装12cd hexo(特指你的blog文件夹）git clone https://github.com/theme-next/hexo-theme-next themes/next (注:这样clone下来的是最新版的如果需要其他版本请到github下theme-next下查看详情） hexo/_config.yml 1theme: next next/_config.yml 此文件为next主题配置文件，可以查询官方查看主要配置详情theme-next]]></content>
@@ -26,7 +38,7 @@
   <entry>
     <title><![CDATA[Linux common command]]></title>
     <url>%2F2019%2F08%2F24%2FLinux-common-command%2F</url>
-    <content type="text"><![CDATA[Linuxcd rm cp mvmkdir 常用命令ls 显示当前文件夹文件列表ls -l 以列表的方式显示当前文件夹列表ls -a 可以显示当前文件夹内的隐藏文件ls *.c 使用通配符查看当前文件夹内以.c后缀结尾的文件ls ?.c 使用？号匹配单个字符touch file.c 创建file.c文件 \ 反斜杠为转意字符 &gt; 输出重定向符号 ls &gt; test.txt 如果目录不存在test.txt会新建文件 | 管道命令 ls -la | grep *.c grep 文本搜索命令 find 查找文件 pwd 显示当前所在文件夹绝对路径 clear 清除屏幕 cd 切换工作目录 cd ..回到上一级目录 cd - 回到上一次进入的目录 mkdir 创建一个新的文件夹 mkdir -p 可以递归创建文件夹 rmdir 删除文件夹 rm 删除文件 rm -rf 删除文件及文件夹且不提示 ln originfile targetfile 给文件创建快捷方式 ln -s 给文件创建软链接 history 查看自己执行过的命令 find ./ -name Desktop 查找当前文件 cp 拷贝文件 cp -r 拷贝文件夹 cp -v 显示拷贝进度 mv 移动命令 &amp;&amp; 可以重命名 file 可以查看文件类型 tar -zcvf 打包文件夹并压缩文件 tar -zxvf 解压缩 zip -r zip后缀压缩 unzip -d ./ 指定目录解压 which 查看命令所在位置 cat 查看文件内容 用户权限不推荐直接使用root用户 whoami 查看当前用户 who 查看登录用户 exit 退出当前用户 su 切换用户 cat /etc/group 查看用户组信息 cat /etc/passwd 查看用户组id useradd 新建用户 usermod 修改用户所在组 passwd 输入用户密码 userdel 删除用户 chmod /u/g/o/a +/-/= filename 修改文件权限 chown 修改文件所有者 last 查看用户登录时间 chgrp 修改文件所属组 系统管理ps -aux 查看进程 kill 杀死进程 top 显示动态进程 reboot 关闭计算机 showdown -r 重新启动计算机 du 查看目录所占磁盘空间 df 检查磁盘空间 rpm 包安装 ifconfig 查看网络配置信息 ping 测试网络连通性 vim常用命令进入输入命令i 当前光标所在位置插入 o 光标说在行往下一行插入 O 上一行插入 a 光标下一个字符插入 A 光标所在行尾插入 常用命令模式ESC 进入快捷键模式 : 进入命令行模式 :w 保存文件:q 退出文件:wq 退出并保存:q! 强行退出不保存 快捷键模式h 光标向右移动j 光标向下移动k 光标向上移动l 光标向左移动 dd 删除当前光标所在行yy 复制当前行v 进入视图模式p 粘贴]]></content>
+    <content type="text"><![CDATA[Linuxcd rm cp mvmkdir 常用命令ls 显示当前文件夹文件列表ls -l 以列表的方式显示当前文件夹列表ls -a 可以显示当前文件夹内的隐藏文件ls *.c 使用通配符查看当前文件夹内以.c后缀结尾的文件ls ?.c 使用？号匹配单个字符touch file.c 创建file.c文件 \ 反斜杠为转意字符 &gt; 输出重定向符号 ls &gt; test.txt 如果目录不存在test.txt会新建文件 | 管道命令 ls -la | grep *.c grep 文本搜索命令 find 查找文件 pwd 显示当前所在文件夹绝对路径 clear 清除屏幕 cd 切换工作目录 cd ..回到上一级目录 cd - 回到上一次进入的目录 mkdir 创建一个新的文件夹 mkdir -p 可以递归创建文件夹 rmdir 删除文件夹 rm 删除文件 rm -rf 删除文件及文件夹且不提示 ln originfile targetfile 给文件创建快捷方式 ln -s 给文件创建软链接 history 查看自己执行过的命令 find ./ -name Desktop 查找当前文件 cp 拷贝文件 cp -r 拷贝文件夹 cp -v 显示拷贝进度 mv 移动命令 &amp;&amp; 可以重命名 file 可以查看文件类型 tar -zcvf 打包文件夹并压缩文件 tar -zxvf 解压缩 zip -r zip后缀压缩 unzip -d ./ 指定目录解压 which 查看命令所在位置 cat 查看文件内容 用户权限不推荐直接使用root用户 whoami 查看当前用户 who 查看登录用户 exit 退出当前用户 su 切换用户 cat /etc/group 查看用户组信息 cat /etc/passwd 查看用户组id useradd 新建用户 usermod 修改用户所在组 passwd 输入用户密码 userdel 删除用户 chmod /u/g/o/a +/-/= filename 修改文件权限 chown 修改文件所有者 last 查看用户登录时间 chgrp 修改文件所属组 系统管理ps -aux 查看进程 kill 杀死进程 top 显示动态进程 reboot 关闭计算机 showdown -r 重新启动计算机 du 查看目录所占磁盘空间 df 检查磁盘空间 rpm 包安装 ifconfig 查看网络配置信息 ping 测试网络连通性 vim常用命令进入输入命令i 当前光标所在位置插入 o 光标说在行往下一行插入 O 上一行插入 a 光标下一个字符插入 A 光标所在行尾插入 常用命令模式ESC 进入快捷键模式 : 进入命令行模式 :w 保存文件:q 退出文件:wq 退出并保存:q! 强行退出不保存 快捷键模式h 光标向右移动j 光标向下移动k 光标向上移动l 光标向左移动 dd 删除当前光标所在行yy 复制当前行v 进入视图模式p 粘贴 远程登录ssh -l root@ip scp -r 本地目录复制到远程]]></content>
       <categories>
         <category>linux</category>
       </categories>
