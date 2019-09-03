@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nihaozaixiatutousan.github.io/"/>
-  <updated>2019-09-03T09:17:24.576Z</updated>
+  <updated>2019-09-03T09:39:07.654Z</updated>
   <id>http://nihaozaixiatutousan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://nihaozaixiatutousan.github.io/2019/09/03/SSH%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E5%A4%87%E4%BB%BD/"/>
     <id>http://nihaozaixiatutousan.github.io/2019/09/03/SSH自动登录备份/</id>
     <published>2019-09-03T08:40:52.000Z</published>
-    <updated>2019-09-03T09:17:24.576Z</updated>
+    <updated>2019-09-03T09:39:07.654Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h1><p>利用ssh可以实现远程登录主机并执行命令的功能</p><h3 id="连接到远程客户端or服务器"><a href="#连接到远程客户端or服务器" class="headerlink" title="连接到远程客户端or服务器"></a>连接到远程客户端or服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@remote_ip</span><br></pre></td></tr></table></figure><p>注：uesr代表登录用户；remote_ip代表远程主机IP地主</p><h3 id="远程无密码登录"><a href="#远程无密码登录" class="headerlink" title="远程无密码登录"></a>远程无密码登录</h3><p>创建ssh公钥和私钥</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youemail@xx.xx&quot;</span><br></pre></td></tr></table></figure><a id="more"></a><p>注：生成的密钥会在当前所使用账户家目录下的.ssh文件夹中</p><p>-t 为生成密钥（yue)类型</p><p>-C 添加注释</p><p>使用ssh-copy-id复制公钥到远程主机</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id -i ./ssh/id_rsa.pub  user@remote_ip</span><br></pre></td></tr></table></figure><p>check in:<br>    ./ssh/authorized_keys</p><p>注：上述，是将本机的ssh公钥内容拷贝到目标主机的.ssh/authorized_keys文件中</p><p>ssh指定端口号登陆</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p port user@remote_ip</span><br></pre></td></tr></table></figure><h3 id="netcat使用"><a href="#netcat使用" class="headerlink" title="netcat使用"></a>netcat使用</h3><p>netcat是一款网络工具可以用来扫描本机端口号以及网络传输文件</p><p>与mcrypt结合使用，可以一边加密一边传输文件</p>]]></content>
     
