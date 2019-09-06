@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nihaozaixiatutousan.github.io/"/>
-  <updated>2019-09-03T09:39:07.654Z</updated>
+  <updated>2019-09-06T10:18:25.984Z</updated>
   <id>http://nihaozaixiatutousan.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算法-01</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/09/06/%E7%AE%97%E6%B3%95-01/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/09/06/算法-01/</id>
+    <published>2019-09-06T05:33:35.000Z</published>
+    <updated>2019-09-06T10:18:25.984Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><p>数组</p><p>线性数组</p><h2 id="注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤"><a href="#注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤" class="headerlink" title="注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤"></a>注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤</h2><p>所需步数取o值</p><p>O(logN)  log以2为底</p><h3 id="二分查找"><a href="#二分查找" class="headerlink" title="二分查找"></a>二分查找</h3><pre><code>function linearSearch(data,flag){     if(typeof data !== &quot;Array&quot;){      break     }     for(let i =0;i&lt;data.length;i++){         if(data[i] == flag){             return i+1         }     }}</code></pre><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">function binarySearch(data,flag)&#123;</span><br><span class="line">    let low = 0;</span><br><span class="line">    let high = data.length-1;</span><br><span class="line">    let middle;</span><br><span class="line">    while(low&lt;=high)&#123;</span><br><span class="line">         middle = Math.floor((high+low)/2);</span><br><span class="line">        if(data[middle]==flag)&#123;</span><br><span class="line">            return middle</span><br><span class="line">        &#125;</span><br><span class="line">        if(flag&gt;data[middle])&#123;</span><br><span class="line">            low = middle + 1;</span><br><span class="line"></span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            high = middle -1</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    return false;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>递归调用</p><pre><code>function binarySearch(data,flag,start,end){    var end = end === undefined?data.length-1:end,    start = start || 0;    let middle = Math.floor((end+start)/2);    if(data[middle] == flag){        return middle;    }    if(end&lt;=start){        return false;    }    if(data[middle]&lt;flag){        return binarySearch(data,flag,middle+1,end);    }    if(data[middle]&gt;flag){        return binarySearch(data,flag,start,middle-1)    }    return false;}</code></pre><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>缺点：</p><pre><code>function hasDuplicate(array){    let existingNumbers = [];    for(let i=0;i&lt;array.length;i++){        //数组空值为undefined        if(existingNumbers[array[i]]===undefined){            existingNumbers[array[i]]=1;        }else{            return true        }    }    return false}</code></pre><h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><pre><code>function selectionSort(array){    let lowestNumberIndex,        temp;    for(let i=0;i&lt;array.length;i++){        lowestNumberIndex = i;        for(let j=i+1;j&lt;array.length;j++)){            if(array[j]&lt;array[lowerstNumberIndex]){                lowestNumberIndex = j;            }        if(i !== lowestNumberInde){            temp = array[i];            array[i] = array[lowestNumberIndex];            array[lowestNumberIndex]=temp;            }        }    }            return array}</code></pre><hr><p>注：js实现，经过测试，如有问题–qq:283421724.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;算法&quot;&gt;&lt;a href=&quot;#算法&quot; class=&quot;headerlink&quot; title=&quot;算法&quot;&gt;&lt;/a&gt;算法&lt;/h1&gt;&lt;p&gt;数组&lt;/p&gt;&lt;p&gt;线性数组&lt;/p&gt;&lt;h2 id=&quot;注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤&quot;&gt;&lt;a href=&quot;#注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤&quot; class=&quot;headerlink&quot; title=&quot;注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤&quot;&gt;&lt;/a&gt;注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤&lt;/h2&gt;&lt;p&gt;所需步数取o值&lt;/p&gt;&lt;p&gt;O(logN)  log以2为底&lt;/p&gt;&lt;h3 id=&quot;二分查找&quot;&gt;&lt;a href=&quot;#二分查找&quot; class=&quot;headerlink&quot; title=&quot;二分查找&quot;&gt;&lt;/a&gt;二分查找&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function linearSearch(data,flag){
+     if(typeof data !== &amp;quot;Array&amp;quot;){
+
+      break
+     }
+
+     for(let i =0;i&amp;lt;data.length;i++){
+         if(data[i] == flag){
+             return i+1
+         }
+     }
+}&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://nihaozaixiatutousan.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="js" scheme="http://nihaozaixiatutousan.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SSH自动登录备份</title>
     <link href="http://nihaozaixiatutousan.github.io/2019/09/03/SSH%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95%E5%A4%87%E4%BB%BD/"/>
     <id>http://nihaozaixiatutousan.github.io/2019/09/03/SSH自动登录备份/</id>
     <published>2019-09-03T08:40:52.000Z</published>
-    <updated>2019-09-03T09:39:07.654Z</updated>
+    <updated>2019-09-03T13:18:49.497Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h1><p>利用ssh可以实现远程登录主机并执行命令的功能</p><h3 id="连接到远程客户端or服务器"><a href="#连接到远程客户端or服务器" class="headerlink" title="连接到远程客户端or服务器"></a>连接到远程客户端or服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@remote_ip</span><br></pre></td></tr></table></figure><p>注：uesr代表登录用户；remote_ip代表远程主机IP地主</p><h3 id="远程无密码登录"><a href="#远程无密码登录" class="headerlink" title="远程无密码登录"></a>远程无密码登录</h3><p>创建ssh公钥和私钥</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youemail@xx.xx&quot;</span><br></pre></td></tr></table></figure><a id="more"></a><p>注：生成的密钥会在当前所使用账户家目录下的.ssh文件夹中</p><p>-t 为生成密钥（yue)类型</p><p>-C 添加注释</p><p>使用ssh-copy-id复制公钥到远程主机</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id -i ./ssh/id_rsa.pub  user@remote_ip</span><br></pre></td></tr></table></figure><p>check in:<br>    ./ssh/authorized_keys</p><p>注：上述，是将本机的ssh公钥内容拷贝到目标主机的.ssh/authorized_keys文件中</p><p>ssh指定端口号登陆</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p port user@remote_ip</span><br></pre></td></tr></table></figure><h3 id="netcat使用"><a href="#netcat使用" class="headerlink" title="netcat使用"></a>netcat使用</h3><p>netcat是一款网络工具可以用来扫描本机端口号以及网络传输文件</p><p>与mcrypt结合使用，可以一边加密一边传输文件</p>]]></content>
     
