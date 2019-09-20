@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[EsLint_01]]></title>
+    <url>%2F2019%2F09%2F07%2FEsLint-01%2F</url>
+    <content type="text"><![CDATA[EsLint安装1npm install eslint --save-dev设置一个配置文件1./node_modules/.bin/eslint --int注： windows Os用户请在git-bash下运行运行1./node_module/.bin/eslint yourfile.js你也可以在全局安装 eslint 1npm install -G eslint lianjie:Airbnb JavaScript 代码规范]]></content>
+      <categories>
+        <category>eslint</category>
+      </categories>
+      <tags>
+        <tag>eslint</tag>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[算法-01]]></title>
     <url>%2F2019%2F09%2F06%2F%E7%AE%97%E6%B3%95-01%2F</url>
     <content type="text"><![CDATA[算法数组线性数组注：在计算机中算法是为了简化计算机软件取得结果所需要的步骤所需步数取o值O(logN) log以2为底二分查找function linearSearch(data,flag){ if(typeof data !== &quot;Array&quot;){ break } for(let i =0;i&lt;data.length;i++){ if(data[i] == flag){ return i+1 } } } 12345678910111213141516171819function binarySearch(data,flag)&#123; let low = 0; let high = data.length-1; let middle; while(low&lt;=high)&#123; middle = Math.floor((high+low)/2); if(data[middle]==flag)&#123; return middle &#125; if(flag&gt;data[middle])&#123; low = middle + 1; &#125;else&#123; high = middle -1 &#125; &#125; return false;&#125; 递归调用 function binarySearch(data,flag,start,end){ var end = end === undefined?data.length-1:end, start = start || 0; let middle = Math.floor((end+start)/2); if(data[middle] == flag){ return middle; } if(end&lt;=start){ return false; } if(data[middle]&lt;flag){ return binarySearch(data,flag,middle+1,end); } if(data[middle]&gt;flag){ return binarySearch(data,flag,start,middle-1) } return false; }冒泡排序缺点： function hasDuplicate(array){ let existingNumbers = []; for(let i=0;i&lt;array.length;i++){ //数组空值为undefined if(existingNumbers[array[i]]===undefined){ existingNumbers[array[i]]=1; }else{ return true } } return false }选择排序function selectionSort(array){ let lowestNumberIndex, temp; for(let i=0;i&lt;array.length;i++){ lowestNumberIndex = i; for(let j=i+1;j&lt;array.length;j++)){ if(array[j]&lt;array[lowerstNumberIndex]){ lowestNumberIndex = j; } if(i !== lowestNumberInde){ temp = array[i]; array[i] = array[lowestNumberIndex]; array[lowestNumberIndex]=temp; } } } return array } 注：js实现，经过测试，如有问题–qq:283421724.]]></content>
       <tags>
-        <tag>算法</tag>
         <tag>js</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
