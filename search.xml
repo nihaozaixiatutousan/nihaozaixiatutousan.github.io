@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[babel @7.X.X]]></title>
     <url>%2F2019%2F09%2F20%2Fbabel-7-X-X%2F</url>
-    <content type="text"><![CDATA[babelbabel是一个工具链，主要是用于在旧的浏览器环境中将ECMAS 2015+ 代码转换为向后兼容版本的代码：Polyfill实现目标环境中缺少的功能（@babel/polyfil)安装babel建议：本地安装babel123npm install --save-dev @babel/core @babel/cli @babel/preset-env 1npm install --save-dev @babel/polyfill 在 7.x.x版本中babel的配置文件变为babel.config.jsbabel.config.js 12345678910111213141516171819202122module.exports = function (api)&#123; api.cache(true); const preset = [ &quot;@babel/env&quot;,&#123; tagets:&#123; node:true, chrome:&quot;67&quot; &#125;, useBuiltIns:&quot;usage&quot;, corejs:&quot;3.2.6&quot; &#125;] const plugins = [] return &#123; presets, plugins &#125;&#125; useBuiltIns选项，当设置“usage”时 ； 实际上将应用上提到的最后一个优化，只包括你需要的polyfill配置之后，babel编译时将检查你的代码，以查找目标中缺失的的功能，并包含所需的polyfill. 运行命令 1npx babel src --out-dir dist 划重点babel 通过 presets:[] 确定生产环境 plugins:[] 引入你需要的插件 有兴趣的可以进入官网查看插件详情,以及 ”配置“方法，重点观看各个插件转换后的代码，—-明白babel究竟做了什么。 babel官网参考 阮一峰babel入门大神博客，]]></content>
+    <content type="text"><![CDATA[babelbabel是一个工具链，主要是用于在旧的浏览器环境中将ECMAS 2015+ 代码转换为向后兼容版本的代码：Polyfill实现目标环境中缺少的功能（@babel/polyfill)安装babel建议：本地安装babel123npm install --save-dev @babel/core @babel/cli @babel/preset-env 1npm install --save-dev @babel/polyfill 在 7.x.x版本中babel的配置文件变为babel.config.jsbabel.config.js 12345678910111213141516171819202122module.exports = function (api)&#123; api.cache(true); const preset = [ &quot;@babel/env&quot;,&#123; tagets:&#123; node:true, chrome:&quot;67&quot; &#125;, useBuiltIns:&quot;usage&quot;, corejs:&quot;3.2.6&quot; &#125;] const plugins = [] return &#123; presets, plugins &#125;&#125; useBuiltIns选项，当设置“usage”时 ； 实际上将应用上提到的最后一个优化，只包括你需要的polyfill配置之后，babel编译时将检查你的代码，以查找目标中缺失的的功能，并包含所需的polyfill. 运行命令 1npx babel src --out-dir dist 划重点babel 通过 presets:[] 确定生产环境 plugins:[] 引入你需要的插件 有兴趣的可以进入官网查看插件详情,以及 ”配置“方法，重点观看各个插件转换后的代码，—-明白babel究竟做了什么。 babel官网参考 阮一峰babel入门大神博客，]]></content>
       <categories>
         <category>javascript</category>
       </categories>
@@ -20,8 +20,8 @@
         <category>eslint</category>
       </categories>
       <tags>
-        <tag>eslint</tag>
         <tag>js</tag>
+        <tag>eslint</tag>
       </tags>
   </entry>
   <entry>
