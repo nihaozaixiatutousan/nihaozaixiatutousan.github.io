@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nihaozaixiatutousan.github.io/"/>
-  <updated>2019-09-08T04:08:25.250Z</updated>
+  <updated>2019-09-20T08:19:11.501Z</updated>
   <id>http://nihaozaixiatutousan.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>babel @7.X.X</title>
+    <link href="http://nihaozaixiatutousan.github.io/2019/09/20/babel-7-X-X/"/>
+    <id>http://nihaozaixiatutousan.github.io/2019/09/20/babel-7-X-X/</id>
+    <published>2019-09-20T07:04:56.000Z</published>
+    <updated>2019-09-20T08:19:11.501Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="babel"><a href="#babel" class="headerlink" title="babel"></a>babel</h2><p>babel是一个工具链，主要是用于在旧的浏览器环境中将ECMAS 2015+ 代码转换为向后兼容版本的代码：</p><p>Polyfill实现目标环境中缺少的功能（@babel/polyfil)</p><h4 id="安装babel"><a href="#安装babel" class="headerlink" title="安装babel"></a>安装babel</h4><p>建议：本地安装babel</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev @babel/core </span><br><span class="line">@babel/cli</span><br><span class="line">   @babel/preset-env</span><br></pre></td></tr></table></figure><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save-dev @babel/polyfill</span><br></pre></td></tr></table></figure><h4 id="在-7-x-x版本中babel的配置文件变为babel-config-js"><a href="#在-7-x-x版本中babel的配置文件变为babel-config-js" class="headerlink" title="在 7.x.x版本中babel的配置文件变为babel.config.js"></a>在 7.x.x版本中babel的配置文件变为babel.config.js</h4><p>babel.config.js</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">module.exports = function (api)&#123;</span><br><span class="line"></span><br><span class="line">api.cache(true);</span><br><span class="line"></span><br><span class="line">const preset = [</span><br><span class="line">&quot;@babel/env&quot;,&#123;</span><br><span class="line">tagets:&#123;</span><br><span class="line"></span><br><span class="line"> node:true,</span><br><span class="line"> chrome:&quot;67&quot;</span><br><span class="line"> &#125;,</span><br><span class="line"> useBuiltIns:&quot;usage&quot;,</span><br><span class="line"> corejs:&quot;3.2.6&quot;</span><br><span class="line"> &#125;]</span><br><span class="line">const plugins = []</span><br><span class="line"></span><br><span class="line">return &#123; </span><br><span class="line">presets,</span><br><span class="line">plugins</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>useBuiltIns选项，当设置“usage”时 ； 实际上将应用上提到的最后一个优化，只包括你需要的polyfill<br>配置之后，babel编译时将检查你的代码，以查找目标中缺失的的功能，并包含所需的polyfill.</p><p>运行命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npx babel src --out-dir dist</span><br></pre></td></tr></table></figure><h3 id="划重点"><a href="#划重点" class="headerlink" title="划重点"></a>划重点</h3><p>babel 通过 </p><p>presets:[] 确定生产环境</p><p>plugins:[]  引入你需要的插件</p><hr><p>有兴趣的可以进入官网查看插件详情,以及 ”配置“方法，<br>重点观看各个插件转换后的代码，—-明白babel究竟做了什么。</p><p><a href="https://babeljs.io" target="_blank" rel="noopener"><strong>babel</strong></a>官网参考</p><p><a href="http://www.ruanyifeng.com/blog/2016/01/babel.html" target="_blank" rel="noopener">阮一峰babel入门</a>大神博客，</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;babel&quot;&gt;&lt;a href=&quot;#babel&quot; class=&quot;headerlink&quot; title=&quot;babel&quot;&gt;&lt;/a&gt;babel&lt;/h2&gt;&lt;p&gt;babel是一个工具链，主要是用于在旧的浏览器环境中将ECMAS 2015+ 代码转换为向后兼容版本的代码：&lt;/p&gt;&lt;p&gt;Polyfill实现目标环境中缺少的功能（@babel/polyfil)&lt;/p&gt;&lt;h4 id=&quot;安装babel&quot;&gt;&lt;a href=&quot;#安装babel&quot; class=&quot;headerlink&quot; title=&quot;安装babel&quot;&gt;&lt;/a&gt;安装babel&lt;/h4&gt;&lt;p&gt;建议：本地安装babel&lt;/p&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install --save-dev @babel/core &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;							@babel/cli&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;						   @babel/preset-env&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://nihaozaixiatutousan.github.io/categories/javascript/"/>
+    
+    
+      <category term="js" scheme="http://nihaozaixiatutousan.github.io/tags/js/"/>
+    
+      <category term="babel" scheme="http://nihaozaixiatutousan.github.io/tags/babel/"/>
+    
+  </entry>
   
   <entry>
     <title>EsLint_01</title>
@@ -34,9 +58,9 @@
       <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/categories/eslint/"/>
     
     
-      <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/tags/eslint/"/>
-    
       <category term="js" scheme="http://nihaozaixiatutousan.github.io/tags/js/"/>
+    
+      <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/tags/eslint/"/>
     
   </entry>
   
