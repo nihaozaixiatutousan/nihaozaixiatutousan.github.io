@@ -58,9 +58,9 @@
       <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/categories/eslint/"/>
     
     
-      <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/tags/eslint/"/>
-    
       <category term="js" scheme="http://nihaozaixiatutousan.github.io/tags/js/"/>
+    
+      <category term="eslint" scheme="http://nihaozaixiatutousan.github.io/tags/eslint/"/>
     
   </entry>
   
